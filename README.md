@@ -1,10 +1,12 @@
 # diyHueDocker
 A docker file for diyHue to control various WiFi enabled lights with a Hue Bridge emulator.
 
-Build with 
+Build with:
 
 docker build
+
 then:
+
 docker run -p 80:80 --name HueEmulator <nameofcontainer> 
   
   
